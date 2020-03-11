@@ -50,6 +50,16 @@ display: inline;
 margin: 0 35px;
 }
 
+.nav:hover{
+    color: grey;
+}
+
+.nav{
+    text-decoration: none; 
+    color: black;
+    font-weight: bold;
+}
+
 .article1 {
 border: 3px solid grey;
 margin-top: 50px;
