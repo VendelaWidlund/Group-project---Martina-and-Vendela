@@ -124,6 +124,19 @@ footer:hover {
 .fa:hover {
     opacity: 0.6;
 }
+    
+button {
+    background-color: white;
+    color: black; 
+    opacity: 0.6;
+    padding: 15px 30px;
+    border-radius: 12px;
+    text-align: center; 
+}
+
+.button:hover {
+    opacity: 0.6;
+}
 
 
 
