@@ -3,7 +3,19 @@ body,html{
     height: 100%;   
 }
 
-img:hover{
+.image0{
+    height: 350px;  
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    object-fit: fill;
+}
+
+.image0:hover{
     opacity: 0.6;
     }
 
