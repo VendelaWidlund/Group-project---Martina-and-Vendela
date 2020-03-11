@@ -2,22 +2,10 @@ body,html{
     font-family: 'IBM Plex Sans', sans-serif; 
     height: 100%;   
 }
-.hero-image {
-    background-image: url('https://cache.marriott.com/marriottassets/destinations/hero/edinburgh-destination.jpg?interpolation=progressive-bilinear'); 
-    height: 350px;  
-    opacity: 1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin-left: 100px;
-    margin-right: 100px;
-    object-fit: fill;
-}
 
-.hero-image:hover {
-opacity: 0.6;
-}
+img:hover{
+    opacity: 0.6;
+    }
 
 .hero-text {
 text-align: center;
@@ -45,13 +33,12 @@ list-style: none;
 justify-content: center;
 }
 
+.nav:hover{
+    color: grey;
+
 nav ul li{
 display: inline;
 margin: 0 35px;
-}
-
-.nav:hover{
-    color: grey;
 }
 
 .nav{
