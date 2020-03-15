@@ -61,29 +61,49 @@ nav ul li{
 }
 
 .article1 {
-border: 3px solid grey;
-margin-top: 50px;
+margin-top: 20px;
 display: flex;
 margin-left: 100px;
-margin-right: 100px;    
+margin-right: 100px;
+flex-direction: row;    
 }
 
-.imgage1{
-width: 500px;    
+.cafediv {
+    margin-left: 20px;
 }
 
-.article2 {
-border: 3px solid grey; 
-margin-top: 50px;
-display: flex;
+h3 {
+    text-decoration: underline;
+}
+
+.article2 { 
+margin-top: 20px;
 margin-left: 100px;
-margin-right: 100px;    
+margin-right: 100px;  
+display: flex;
+flex-direction: row-reverse;  
 }
 
-.image2 {
-display: flex;
-align-self: flex-end;    
+.article3 { 
+    margin-top: 20px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-direction: row;  
 }
+
+.parksdiv {
+    margin-left: 20px;
+}
+
+.article4 { 
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;  
+    display: flex;
+    flex-direction: row-reverse;  
+    }
+
 
 footer {
 display: flex;
@@ -92,7 +112,7 @@ color: white;
 height: 300px;
 margin-left: 100px;
 margin-right: 100px;
-margin-top: 250px;
+margin-top: 20px;
 background-color: lightsteelblue;
 }
 
@@ -127,4 +147,5 @@ button {
 .button:hover {
     opacity: 0.6;
 }
+
 
