@@ -1,6 +1,7 @@
-
-function subscribeFunction () {
-    var email = prompt ("Please enter your e-mail address");
-    return email;
+ function subscribeFunction () {
+    prompt ("Please enter your e-mail address");
+    console.log('subscribeFunction'); 
 }
-console.log(email); 
+
+console.log(subscribeFunction); 
+console.log('User email address' , prompt);  
