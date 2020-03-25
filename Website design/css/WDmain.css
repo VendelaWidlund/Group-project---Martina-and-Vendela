@@ -37,21 +37,27 @@ border-bottom: 3px solid grey;
 border-top: 3px solid grey;
 margin-left: 100px;
 margin-right: 100px;
-margin-top: 5px;
+margin-top: 10px;
 }
 
 nav ul{
+display: flex;
 list-style: none;
 justify-content: center;
+flex-direction: row; 
+align-items: center;
 }
+
 
 .nav:hover{
     color: grey;
 }
 
 nav ul li{
-    display: inline;
+    
+    display: flex;
     margin: 0 35px;
+    align-self: baseline;
     }
 
 .nav{
@@ -60,49 +66,33 @@ nav ul li{
     font-weight: bold;
 }
 
-.article1 {
-margin-top: 20px;
-display: flex;
-margin-left: 100px;
-margin-right: 100px;
-flex-direction: row;    
+.featurette-divider {
+    margin: 3rem 0;
+    margin-right: 100px; 
+    margin-left: 100px;
 }
 
-.cafediv {
-    margin-left: 20px;
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.col-md-7 {
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+
+.col-md-5 {
+    flex: 0 0 40%;
+    max-width: 40%;
+    align-self: flex-end;
 }
 
 h3 {
     text-decoration: underline;
 }
-
-.article2 { 
-margin-top: 20px;
-margin-right: 100px;  
-display: flex;
-flex-direction: row-reverse;  
-}
-
-.article3 { 
-    margin-top: 20px;
-    display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
-    flex-direction: row;  
-}
-
-.parksdiv {
-    margin-left: 20px;
-}
-
-.article4 { 
-    margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;  
-    display: flex;
-    flex-direction: row-reverse;  
-    }
-
 
 footer {
 display: flex;
@@ -146,4 +136,6 @@ button {
 .button:hover {
     opacity: 0.6;
 }
+
+
 
