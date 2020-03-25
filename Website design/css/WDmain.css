@@ -9,15 +9,11 @@ body,html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    margin-left: 100px;
+    margin-left: 95px;
     margin-right: 100px;
     object-fit: fill;
 }
 
-.image0:hover{
-    opacity: 0.6;
-    }
 
 .hero-text {
 text-align: center;
@@ -31,7 +27,6 @@ color: white;
 
 nav{
 display: flex;
-align-items: center;
 justify-content: center;
 border-bottom: 3px solid grey;
 border-top: 3px solid grey;
@@ -137,5 +132,41 @@ button {
     opacity: 0.6;
 }
 
+h4 {
+    font-style: italic;
+}
 
+.Cafes {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.cafe1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.cafe2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.cafe3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.cafetext {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
 
