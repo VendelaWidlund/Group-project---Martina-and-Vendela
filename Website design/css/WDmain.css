@@ -45,19 +45,46 @@ nav ul{
 }
 
 
-.nav:hover{
-    color: grey;
-}
-
 nav ul li{ 
     display: flex;
     margin: 0 35px;
     align-self: baseline;
     }
 
-.nav{
+.nav1 {
     text-decoration: none; 
     color: black;
+}
+
+.nav1:hover{
+    color:pink;
+}
+
+.nav2 {
+    text-decoration: none; 
+    color: black;
+}
+
+.nav2:hover{
+    color: blue;
+}
+
+.nav3 {
+    text-decoration: none; 
+    color: black;
+}
+
+.nav3:hover{
+    color: green;
+}
+
+.nav4 {
+    text-decoration: none; 
+    color: black;
+}
+
+.nav4:hover{
+    color: purple;
 }
 
 .featurette-divider {
